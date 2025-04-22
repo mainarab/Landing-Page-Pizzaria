@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../imagens/bg_site.jpg");
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+#container {
+    background-color: #fffed6e4;
+    width: 1190px;
+    border-radius: 20px;
+    padding: 20PX;
+
+}
+
+header>img {
+    width: 250px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+nav a {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 0 20px;
+}
+
+nav a:link,
+nav a:visited {
+    color: #b83229;
+}
+
+nav a:hover {
+    color: #00774a;
+}
+
+nav a:active {
+    color: #b83229;
+}
+
+.titulo-principal,
+h2 {
+    text-align: center;
+
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+
+    font-size: 2.5rem;
+    color: #b83229;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.paragrafo-1,
+.cards>article>p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    color: #00774a;
+    margin-bottom: 40px;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+
+.cards>article {
+    width: 564px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.bt-saiba-mais {
+    background-color: #b83229;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px 20px;
+}
+
+.bt-saiba-mais:hover {
+    background-color: #00774a;
+}
+
+footer>section{
+    background-color: #b83329e9;
+    height: 120px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+footer>section>img{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+}
+
+footer>section>a{
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 10px;
+}
+
+footer>section>a:hover{
+    text-decoration: underline;
+}
+
+.assinatura{
+    color: #b83229;
+    font-size: 0.8rem;
+    text-align: right;
+    padding-top: 10px;
+
+}
